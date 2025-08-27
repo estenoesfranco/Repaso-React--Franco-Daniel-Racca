@@ -3,6 +3,11 @@ import './App.css'
 import Contador from './components/contador'
 import Input from './components/input'
 import Multiplicador from './components/multiplicador'
+import Cambiarcolordefondo from './components/cambiarcolordefondo'
+import FormularioConAlerta from './components/FormularioConAlerta'
+import RenderizarArray from './components/RenderizarArray'
+
+
 
 function App() {
   return (
@@ -11,6 +16,10 @@ function App() {
       <Contador/>
       <Input/>
       <Multiplicador/>
+      <Cambiarcolordefondo/>
+      <RenderizarArray/>
+      <FormularioConAlerta/>
+      
     </>
   )
 }
